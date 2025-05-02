@@ -138,6 +138,9 @@ dotnet_diagnostic.CA1805.severity = warning
 # CA1810: Do not initialize unnecessarily
 dotnet_diagnostic.CA1810.severity = warning
 
+# CS8600 - Converting null literal or possible null value to non-nullable type.
+dotnet_diagnostic.CS8600.severity = suggestion
+
 # CS8602: Dereference of a possibly null reference.
 dotnet_diagnostic.CS8602.severity = none
 
