@@ -20,6 +20,13 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 end_of_line = lf
 
+[*.{js,ts,json,rb}]
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false  # Needed to preserve spacing in markdown
+
 [*.cs]
 indent_size = 4
 dotnet_sort_system_directives_first = true
@@ -475,3 +482,4 @@ dotnet_diagnostic.IDE0161.severity = silent
 [{**/Shared/**.cs,**/microsoft.extensions.hostfactoryresolver.sources/**.{cs,vb}}]
 # IDE0005: Remove unused usings. Ignore for shared src files since imports for those depend on the projects in which they are included.
 dotnet_diagnostic.IDE0005.severity = silent
+
