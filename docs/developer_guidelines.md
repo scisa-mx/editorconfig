@@ -158,6 +158,8 @@ Para no enviar cosas que el cliente NO espera. Unicamente LO reportado
 
 7.7 [Estándar de wiki por cliente (ambientes on-premise, versiones, manuales)](programming/0.7.repositories/07.7.client_wiki_standard.md)
 
+7.8 [Manejo de subdominios (patrón canónico, proceso de solicitud, ciclo de vida)](programming/0.7.repositories/07.8.subdomain_management.md)
+
 ---
 
 ## **8. Gestión de Scripts, Migraciones y Base de Datos**
