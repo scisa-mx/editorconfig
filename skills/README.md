@@ -34,6 +34,22 @@ Ver [estándar de releases](../docs/programming/0.7.repositories/07.2.releases.m
 
 ---
 
+### `ticket-template`
+
+Crea tickets (Bug/Feature/Task/Spike/Epic) directo en ClickUp vía MCP, con la plantilla correcta según el tipo — sin repetir qué campos incluir cada vez. Independiente de `ticket-generator` (JSON para el widget de Tauri) y de `idea-sink` (sink de notas de Innovación).
+
+**Uso en Claude Code:**
+
+```
+Crea un bug en ClickUp: el login falla en producción cuando el usuario usa SSO
+```
+
+```
+Crea un epic para rediseñar el onboarding, con sus tickets hijos
+```
+
+---
+
 ## Agregar un skill nuevo
 
 1. Crear directorio `skills/<nombre-del-skill>/`

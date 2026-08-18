@@ -22,6 +22,11 @@ $Skills = @(
         Name        = "idea-sink"
         Description = "Gestiona el idea sink de Innovación en ClickUp: captura notas/ideas en el inbox del doc y las procesa convirtiéndolas en tickets estructurados"
         Files       = @("SKILL.md")
+    },
+    @{
+        Name        = "ticket-template"
+        Description = "Plantilla y flujo para crear tickets (Bug/Feature/Task/Spike/Epic) directo en ClickUp vía MCP"
+        Files       = @("SKILL.md")
     }
 )
 
